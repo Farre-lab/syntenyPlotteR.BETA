@@ -52,6 +52,8 @@
 #' @param curve degree of curve for syntenic line drawing `curve = .75` (default)
 #' @param thickness thickness of the syntenic line drawing `thickness = .5` (default)
 #' @return An image file showing the linear comparison drawings
+#' @export
+#'
 
 
 draw.microsynteny <- function(output,sizefile,...,fileformat = "png",colours = colours.default,w=13,h=5,opacity = .1,curve=.75,thickness=.5){
